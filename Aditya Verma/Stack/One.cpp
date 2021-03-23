@@ -14,8 +14,8 @@ int main(){
             holdResult.push_back(-1);
         }else if(manipulateData.size()>0 && manipulateData.top() > item){
             holdResult.push_back(manipulateData.top());
-        }else if(manipulateData.size()>0 && manipulateData.top() < item){
-            while(manipulateData.size()>0 && manipulateData.top() < item){
+        }else if(manipulateData.size()>0 && manipulateData.top() <= item){
+            while(manipulateData.size()>0 && manipulateData.top() <= item){
                 manipulateData.pop();
             }
             if(manipulateData.size()==0){
