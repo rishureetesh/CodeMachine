@@ -1,4 +1,4 @@
-//Nearest Greater to Left
+//Nearest Smaller to Left
 
 #include <iostream>
 using namespace std;
