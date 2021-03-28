@@ -1,6 +1,6 @@
 //Stock Span Problem
 
-#include <iostream>
+#include<iostream>
 #include<stack>
 #include<vector>
 #include<utility>

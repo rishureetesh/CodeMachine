@@ -8,7 +8,7 @@ Four.cpp : Nearest Smaller to Right
 Five.cpp : Stock Span Problem
 Six.cpp : Maximum area of histogram
 
-Seven.cpp : MAx area of rectangle in binary matrix
+Seven.cpp : Max area of rectangle in binary matrix
 
 Eight.cpp : Rain water trapping
 Nine.cpp : Implementing min stack
