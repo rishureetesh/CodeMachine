@@ -10,7 +10,7 @@ int main(){
     stack<pair<int,int>> holdData;
 
     for(int item:data){
-
+        
     }
     return 0;
 }
