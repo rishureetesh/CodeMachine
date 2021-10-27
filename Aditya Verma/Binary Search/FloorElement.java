@@ -6,7 +6,7 @@ class FloorElement{
         }
         int mid = (high + low) / 2;
         if (Array[mid] < Element){
-            if(mid+1 <= high && Array[mid+1] < Element){
+            if(mid < high && Array[mid+1] < Element){
                 return floorElement(Array, mid+1, high, Element);
             }else{
                 return Array[mid];
