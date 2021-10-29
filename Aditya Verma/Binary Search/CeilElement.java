@@ -5,8 +5,10 @@ class CeilElement{
             return -1;
         }
         int mid = (high + low) / 2;
-        if (Array[mid] > Element){
-            if(mid > low && Array[mid-1] > Element){
+        if(Array[mid] == Element){
+                return Array[mid];
+        }else if(Array[mid] >= Element){
+            if(mid > low && Array[mid-1] >= Element){
                 return ceilElement(Array, low, mid-1, Element);
             }else{
                 return Array[mid];
@@ -16,7 +18,7 @@ class CeilElement{
         }
     }
     public static void main(String[] args){
-        int[] Array = {1,2,3,4,7,8,9};
+        int[] Array = {1,2,3,4,5,7,8,9};
         int index = ceilElement(Array, 0, Array.length-1, 5);
         if (index == -1){
             System.out.println("Ceil element for the mentioned doesn't exists :(");
