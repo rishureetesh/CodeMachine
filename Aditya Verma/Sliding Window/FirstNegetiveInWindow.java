@@ -8,7 +8,7 @@ class FirstNegetiveInWindow{
             if (Array[j] < 0){
                 negetiveArray[end++] = Array[j];
             }
-            if(i+j+1 >= window){
+            if(j-i+1 == window){
                 if(negetiveArray[start] < 0)
                     System.out.println(negetiveArray[start]);
                 if(Array[i++] == negetiveArray[start]){
