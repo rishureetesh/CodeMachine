@@ -18,12 +18,12 @@ class ElementInRotatedArray{
         int low = 0;
         int high = Array.length - 1;
         int index = RotatedArray.rotatedArray(Array, low, high);
-        int Element = 5;
+        int Element = 4;
         System.out.println("Index : "+index);
         if(Array[index]<= Element && Array[high]>= Element){
             low = index;
         }else{
-            high = (index + high -1) % Array.length;
+            high = (index + high) % Array.length;
         }
         int rotatedPosition = elementInRotatedArray(Array, low, high,Element);
         System.out.println("Elemnt found out at position : "+rotatedPosition);
