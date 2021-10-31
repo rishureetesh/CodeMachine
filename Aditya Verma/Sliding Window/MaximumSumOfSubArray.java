@@ -7,9 +7,9 @@ class MaximumSumOfSubArray{
         int max = Integer.MIN_VALUE;
         for (int i = 0,j = 0; j < Array.length;j++){
             sum += Array[j];
-            if(i+j+1 > window){
-                sum -= Array[i++];
+            if(j-i+1 == window){
                 max = max > sum ? max : sum; // Replace > with '<' for Minimum Sum of a subarray with fixed window.
+                sum -= Array[i++];
             }
         }
         System.out.println(max);
