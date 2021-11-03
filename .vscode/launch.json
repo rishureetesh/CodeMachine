@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountAnagramOccurance",
+            "request": "launch",
+            "mainClass": "CountAnagramOccurance",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstNegetiveInWindow",
+            "request": "launch",
+            "mainClass": "FirstNegetiveInWindow",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargetSubarraySumK",
+            "request": "launch",
+            "mainClass": "LargetSubarraySumK",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubStringWithKDistinctChar",
+            "request": "launch",
+            "mainClass": "LongestSubStringWithKDistinctChar",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxOfWindow",
+            "request": "launch",
+            "mainClass": "MaxOfWindow",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSumOfSubArray",
+            "request": "launch",
+            "mainClass": "MaximumSumOfSubArray",
+            "projectName": "CodeMachine_1f388328"
+        }
+    ]
+}
