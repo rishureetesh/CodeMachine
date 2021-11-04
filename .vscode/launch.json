@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PickToys",
+            "request": "launch",
+            "mainClass": "PickToys",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
             "name": "Launch LargestSubstringWithNoRepeatChar",
             "request": "launch",
             "mainClass": "LargestSubstringWithNoRepeatChar",
