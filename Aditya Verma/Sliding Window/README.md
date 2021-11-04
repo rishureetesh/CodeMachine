@@ -1,7 +1,6 @@
 # SlidingWindow
- Works best with substring or subarray without skiiping elements
- Given window size to manipulate data and Has always to find pattern like scenario in original data
- Two types of Sliding Window,
+ Works best with substring or subarray without skiiping elements. Given window size to manipulate data and Has always to find pattern like scenario in original data. 
+ Two types of Sliding Window:
  - Fixed Size window
  - Variable size window
 
