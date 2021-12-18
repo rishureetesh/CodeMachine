@@ -12,15 +12,15 @@ class NextGreaterToRight {
         Stack<Node> stack=new Stack<Node>();
         for(int i=temperatures.length-1;i>=0;i--){
             if(stack.empty()){
-                holdResult[i]=0;
+                holdResult[i]=-1;
             }else if(!stack.empty() && stack.peek().temperature > temperatures[i]){
-                holdResult[i]=stack.peek().index-i;
+                holdResult[i]=stack.peek().temperature;
             }else{
                 while(!stack.empty() && stack.peek().temperature <= temperatures[i]) stack.pop();
                 if(stack.empty()){
-                    holdResult[i]=0;
+                    holdResult[i]=-1;
                 }else{
-                    holdResult[i] = stack.peek().index-i;
+                    holdResult[i] = stack.peek().temperature;
                 }
             }
             stack.push(new Node(temperatures[i],i));
