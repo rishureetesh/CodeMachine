@@ -1,5 +1,6 @@
 """
-Given an integer array arr, find the contiguous subarray (containing at least one number) which
+Kadane’s Algorithm : Maximum Subarray Sum in an Array
+Problem Statement: Given an integer array arr, find the contiguous subarray (containing at least one number) which
 has the largest sum and return its sum and print the subarray.
 
 Example 1:
