@@ -1,8 +1,8 @@
-package Practice.template.sort;
+package java.template.sort;
 
 public class Heap {
     public void sort(int[] inputArray){
-        
+
         int N = inputArray.length;
  
         for (int i = N / 2 - 1; i >= 0; i--)

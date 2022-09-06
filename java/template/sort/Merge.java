@@ -1,4 +1,4 @@
-package Practice.template.sort;
+package java.template.sort;
 import java.lang.Math;
 
 public class Merge {

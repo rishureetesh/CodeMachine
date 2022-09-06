@@ -1,3 +1,4 @@
+package java.Practice.Recursion;
 // Printing one to hundred
 class PrintNumber{
     static int Number = 10;

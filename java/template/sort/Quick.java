@@ -1,4 +1,4 @@
-package Practice.template.sort;
+package java.template.sort;
 
 public class Quick {
     public void sort(int[] inputArray){

@@ -1,4 +1,4 @@
-package Practice.template.search;
+package java.template.search;
 
 public class Linear{
     public int search(int[] inputArray, int target) {
