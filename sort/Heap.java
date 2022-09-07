@@ -1,4 +1,4 @@
-package java.template.sort;
+package sort;
 
 public class Heap {
     public void sort(int[] inputArray){

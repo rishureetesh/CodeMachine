@@ -1,4 +1,4 @@
-package java.template.sort;
+package sort;
 
 public class Bubble {
     public int[] sort(int[] inputArray){

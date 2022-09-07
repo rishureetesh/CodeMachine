@@ -1,5 +1,4 @@
-package java.template.search;
-
+package search;
 public class Binary{
     public static int search(int[] inputArray, int target) {
         return search(inputArray, target, 0, inputArray.length - 1);

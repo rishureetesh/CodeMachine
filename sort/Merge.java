@@ -1,4 +1,4 @@
-package java.template.sort;
+package sort;
 import java.lang.Math;
 
 public class Merge {

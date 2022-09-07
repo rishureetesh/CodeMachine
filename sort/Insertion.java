@@ -1,4 +1,4 @@
-package java.template.sort;
+package sort;
 
 public class Insertion {
     public int[] sort(int[] inputArray){

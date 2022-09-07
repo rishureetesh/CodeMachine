@@ -1,4 +1,4 @@
-package java.template.sort;
+package sort;
 
 public class Selection {
     public int[] sort(int[] inputArray){

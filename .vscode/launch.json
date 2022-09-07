@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MissingElementInArray",
+            "request": "launch",
+            "mainClass": "Practice.MissingElementInArray",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "code.template.search.Test",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "java.template.search.Test",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingElementInArray",
+            "request": "launch",
+            "mainClass": "java.Practice.F2F.MissingElementInArray",
+            "projectName": "CodeMachine_1f388328"
+        },
+        {
+            "type": "java",
             "name": "Launch PickToys",
             "request": "launch",
             "mainClass": "PickToys",

@@ -1,4 +1,4 @@
-package java.template.search;
+package search;
 import java.lang.Math;
 
 public class Jump {
