@@ -1,1 +1,0 @@
-17-03-2022 12:14:16 | template | DEBUG | {"Unique ID": "3e03ba38e92b4cd38d84853885decbd0", "Question ID": "One", "Question Name": "Binary Search", "Input List": [["5", "5 3 8 6 8"], ["6", "9 6 8 6 4 3 2"]], "Output List": null, "Success": false, "Retries": 1, "Total Time Taken": 2}
