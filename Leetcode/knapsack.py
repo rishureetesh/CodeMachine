@@ -16,7 +16,7 @@ def knapsack(item, value, capacity, size):
 
 item = [1,2,3,4,5]
 value = [5,6,2,9,5]
-weight = 25
+weight = 9
 size = len(item)
 data = knapsack(item, value, weight, size)
 print(data)
