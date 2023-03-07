@@ -8,3 +8,5 @@
    - Dynamic Programming
    - Heap
    - Two Pointers
+## Topics covered from Striver:
+   - Graph
