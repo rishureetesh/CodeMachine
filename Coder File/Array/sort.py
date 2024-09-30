@@ -1,4 +1,4 @@
-from template.sort import insertion_sort, bubble_sort, selection_sort
+from Sorting import insertion_sort, bubble_sort, selection_sort
 from time import perf_counter
 start = perf_counter()
 index = insertion_sort([1,5,3,4,6,2,7,9,10,7])

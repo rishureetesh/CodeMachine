@@ -1,4 +1,4 @@
-from template.search import exponential_search, binary_search, linear_seach, jump_search
+from Searching import exponential_search, binary_search, linear_seach, jump_search
 from time import perf_counter
 start = perf_counter()
 index = exponential_search(range(1,1000000000), 999564)
